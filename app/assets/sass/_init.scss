@@ -1,0 +1,110 @@
+/*STYLE.CSS*/
+
+
+
+/*--------------------------------------------------------------------------------------*/
+/* TEXT SETTING */
+/*--------------------------------------------------------------------------------------*/
+/* fonts */
+body {}
+
+
+
+
+/*---------------------------------------------------------------------------------------*/
+/* GLOBAL SETTINGS */
+/*--------------------------------------------------------------------------------------*/
+
+//variables
+*, *:before, *:after{ 
+    box-sizing: inherit; 
+}
+
+/* extends */
+.wpc-trans{
+     transition: all ease .3s;   
+}
+
+.container-fluid {
+    min-width: 280px;
+}
+
+.container {
+    min-width: 280px;
+}
+
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.t-left{
+    text-align: left;
+}
+.t-right{
+    text-align: right;
+}
+.t-center{
+    text-align: center;
+}
+
+
+/* background colors */
+.bg-c-1{
+    background: #f6f6f6;
+}
+
+
+/* background image settings */
+.s-back-switch{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+
+/* eq columns 1 */
+.eq-row{
+    overflow: hidden; 
+}
+
+.eq-col{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+
+
+/* eq columns 2 */
+.a-col-half{
+    width: 50%;
+    float: left;
+}
+
+.a-col-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%; 
+}
+.a-col-img.right{
+    left: 50%;    
+}
+
+.a-col-text{
+    margin-left: 50%;    
+}
+
+/* eq columns 3 */
+.a-eq-table{
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.a-eq-cell{
+    display: table-cell;
+    width: 50%;
+}
+
